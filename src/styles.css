@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+h1{
+    font-family: 'Roboto Condensed';
+    font-size: 46px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(8, 114, 175, 0.5), rgba(15, 151, 188, 0.5)), url("assets/pic.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 325px;;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+nav p{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+  .social ul{
+      font-size: 18px;
+      font-family: 'Open Sans', sans-serif;
+      list-style: none;
+      display: flex;
+      color: #fff;
+  }
+
+  .social ul li{
+      font-size: 18px;
+      padding: 10px 30px;
+      color: #fff;
+  }
