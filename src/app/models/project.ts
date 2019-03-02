@@ -3,4 +3,5 @@ export class Project{
     URL: string
     title: string
     description: string
+    image: string
 }

@@ -6,10 +6,10 @@ import { ProjectsService } from '../services/projects.service';
 
 @Component({
     //selector: 'projects-el',
-    templateUrl: './projects.component.html'
+    templateUrl: './profile.component.html'
 })
 
-export class ProjectsComponent implements OnInit{
+export class ProfileComponent implements OnInit{
     constructor(private projectsService : ProjectsService){}
     projects : Project[] = []
 

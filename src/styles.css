@@ -1,7 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-h1{
+
+body{
+    overflow-x: hidden;
+}
+
+h1, h2{
     font-family: 'Roboto Condensed';
     font-size: 46px;
+}
+
+h3{
+  font-family: 'Roboto Condensed';
+  font-size: 24px;
 }
 
 p{
@@ -9,12 +19,46 @@ p{
     font-size: 18px;
 }
 
+.sections{
+    margin: 90px 0;
+}
+
+.pro{
+    background-image: linear-gradient(to bottom right,  rgba(12, 124, 135, 0.8), rgba(237, 149, 181, 0.5)), url("assets/back3.jpg");
+ /* Set a specific height */
+ height: 450px;
+  
+ /* Position and center the image to scale nicely on all screens */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ background-attachment: fixed;
+ color: white;
+}
+
+.prof{
+    margin-top: 156px;
+}
+
+.btn{
+   background-color: transparent;
+    border: 1px #cf102d solid;
+    color: #333;
+}
+
+.btn:hover{
+    background-color: #cf102d;
+    border: 1px #cf102d solid;
+    color: #fff;
+}
+
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(to bottom right, rgba(12, 124, 135, 0.8), rgba(237, 149, 181, 0.5)), url("assets/pic.jpg");
   
     /* Set a specific height */
-    height: 500px;
+    height: 700px;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -57,3 +101,50 @@ nav p{
       padding: 10px 30px;
       color: #fff;
   }
+
+  nav img{
+      width: 105px;
+      margin-left: 30px;
+  }
+
+  nav{
+      position: fixed;
+      border-bottom: #4c4d4f .75px solid;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid red;
+  }
+
+
+  
+  .topnav a:active {
+    border-bottom: 3px solid red;
+  }
+
+  .home{
+    margin-left: 900px;
+  }
+
+
+  
+  @media only screen and (max-width: 900px){
+    .home{
+    margin: 0;
+    }
+    nav img{
+        margin-left: 0;
+    }
+   
+}

@@ -6,11 +6,16 @@ import { AppComponent } from './app.component';
 import {ProjectsComponent} from './profile/projects.component';
 import {routes} from './routes';
 import {RouterModule} from '@angular/router';
+import { ProfileComponent } from './profile/profile.component';
+import { ProjectComponent } from './profile/project.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ProfileComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
