@@ -4,10 +4,25 @@ body{
     overflow-x: hidden;
 }
 
+.about{
+  padding: 50px 100px;
+}
+
 h1, h2{
     font-family: 'Roboto Condensed';
     font-size: 46px;
 }
+
+.underline{
+  border-bottom: rgb(12, 124, 135) 1px solid;
+  
+}
+
+.underlinep{
+  border-bottom: white 1px solid;
+}
+
+
 
 h3{
   font-family: 'Roboto Condensed';
@@ -26,7 +41,7 @@ p{
 .pro{
     background-image: linear-gradient(to bottom right,  rgba(12, 124, 135, 0.8), rgba(237, 149, 181, 0.5)), url("assets/back3.jpg");
  /* Set a specific height */
- height: 450px;
+ height: 950px;
   
  /* Position and center the image to scale nicely on all screens */
  background-position: center;
@@ -43,13 +58,13 @@ p{
 
 .btn{
    background-color: transparent;
-    border: 1px #cf102d solid;
+    border: 1px #ed95b5 solid;
     color: #333;
 }
 
 .btn:hover{
-    background-color: #cf102d;
-    border: 1px #cf102d solid;
+    background-color: #0c7c87 ;
+    border: 1px #0c7c87  solid;
     color: #fff;
 }
 
@@ -127,14 +142,190 @@ nav p{
     border-bottom: 3px solid red;
   }
 
+  hr{
+    background-color: rgb(12, 124, 135);
+    margin-top: 55px;
+    width: 50%;
+  }
+
 
   
   .topnav a:active {
     border-bottom: 3px solid red;
   }
 
+.projects{
+  margin: 90px 0;
+}  
+
+.projects .btn{
+  margin: 20px 0;
+}
+
+.project{
+  padding: 25px;
+}
+
+.desc{
+  padding: 0 360px;
+}
+
   .home{
     margin-left: 900px;
+  }
+
+  #SkillBox {
+    
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius:20px;
+  }
+  #SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+  }
+  .SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    margin: 20px auto;
+  }
+
+  
+
+  #Skill-HTML {
+    animation: Animate-HTML 6s;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    background-color: rgba(12, 124, 135, 0.6);
+  }
+  @keyframes Animate-HTML {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 100%}
+  }
+  #Skill-jQuery {
+    animation: Animate-jQuery 5s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color:rgba(12, 124, 135, 0.6);
+  }
+  @keyframes Animate-jQuery {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 70%
+    }
+  }
+
+ 
+
+  #Skill-MS {
+    animation: Animate-MS 5s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color:rgba(12, 124, 135, 0.6);
+  }
+  @keyframes Animate-MS {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 70%
+    }
+  }
+
+  #Skill-JS {
+    animation: Animate-JS 5s;
+    width: 85%;
+    height: 50px;
+    position: absolute;
+    background-color:rgba(12, 124, 135, 0.6);
+  }
+  @keyframes Animate-JS {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 85%}
+  }#Skill-XML {
+     animation: Animate-XML 6s;
+     width: 90%;
+     height: 50px;
+     position: absolute;
+     background-color: rgba(12, 124, 135, 0.6);
+   }
+  @keyframes Animate-XML {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 90%}
+  }
+  
+
+  #Skill-WP {
+    animation: Animate-WP 6s;
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    background-color:rgba(12, 124, 135, 0.6);
+  }
+  @keyframes Animate-WP {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 90%}
+  }
+ 
+  #Skill-PHP {
+    animation: Animate-PHP 5s;
+    width: 85%;
+    height: 50px;
+    position: absolute;
+    background-color: rgba(12, 124, 135, 0.6);
+  }
+  @keyframes Animate-PHP {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 85%}
+  }
+  .Skill-Area {
+    z-index: 1;
+    float: left;
+
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+
+    font-size: 18px;
+  }
+  .PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+
+    font-size: 18px;
   }
 
 

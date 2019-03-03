@@ -11,6 +11,11 @@ import { ProjectsService } from '../services/projects.service';
 
 export class ProjectComponent {
     @Input() project: Project
+    expanded : boolean = false
+
+    expandedOrShrink(){
+        this.expanded = !this.expanded
+    }
   
 
    
