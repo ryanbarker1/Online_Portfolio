@@ -8,19 +8,24 @@ import {routes} from './routes';
 import {RouterModule} from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
 import { ProjectComponent } from './profile/project.component';
+import { ContactComponent } from './profile/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectsComponent,
     ProfileComponent,
-    ProjectComponent
+    ProjectComponent,
+    ContactComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'enabled',
+      anchorScrolling: 'enabled'
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

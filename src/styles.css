@@ -4,6 +4,8 @@ body{
     overflow-x: hidden;
 }
 
+
+
 .about{
   padding: 23px 100px;
 }
@@ -38,7 +40,9 @@ p{
     font-size: 18px;
 }
 
-
+.down:hover{
+  color: #0c7c87 !important;
+}
 
 .cards img{
   width: 400px;
@@ -90,7 +94,7 @@ p{
 }
 
 .arrow p{
-  margin-top: 87px;
+  margin-top: 40px;
 
 }
 
@@ -119,7 +123,7 @@ p{
     text-align: center;
     position: absolute;
     top: 325px;
-    margin-top: 100px;
+    margin-top: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -172,7 +176,8 @@ nav p{
   }
   
   .topnav a:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 1px solid rgb(12, 124, 135);
+    color: rgb(12, 124, 135);
   }
 
   hr{
@@ -183,9 +188,7 @@ nav p{
 
 
   
-  .topnav a:active {
-    border-bottom: 3px solid red;
-  }
+  
 
 .projects{
   margin: 90px 0;

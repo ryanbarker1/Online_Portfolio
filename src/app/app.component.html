@@ -9,13 +9,14 @@
     <span class="navbar-text">
       <ul class="navbar-nav mr-auto my-2 my-lg-0">
         <li class="topnav home nav-item" >
-          <a class="nav-link active"  routerLink="/portfolio">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link"  routerLink="/portfolio" routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }" >Home </a>
         </li>
         <li class="topnav nav-item">
-        <a class="nav-link"  routerLink="/portfolio/projects">Projects</a>
+        <a class="nav-link"  routerLink="/portfolio/projects" routerLinkActive="active">Projects</a>
         </li>
         <li class="topnav nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" routerLink="/portfolio/contact" routerLinkActive="active">Contact</a>
         </li>
       </ul>
     </span>
@@ -30,10 +31,10 @@
   <p class="intro">As a designer I'm passion about doing what's best in making the perfect site.
       <div class="arrow bounce">
         <p>Scroll Down</p>
-          <i class="fas fa-angle-double-down fa-2x" ></i>
+          <a class="down" (click)="scrollWin()"><i class="fas fa-angle-double-down fa-2x" ></i></a>
         </div>
   </div>
-  
+  <div id="about"></div>
   <router-outlet></router-outlet>
 
 

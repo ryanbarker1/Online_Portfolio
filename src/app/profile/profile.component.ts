@@ -17,5 +17,4 @@ export class ProfileComponent implements OnInit{
         this.projectsService.getProjects().subscribe(data => this.projects = data)
     }
 
-  
 }
