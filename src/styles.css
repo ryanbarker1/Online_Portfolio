@@ -15,7 +15,14 @@ body{
 }
 
 .contact{
-  text-align: left
+  text-align: left;
+  margin-top: 50px;
+}
+
+.profile img{
+  height: auto;
+    border-radius: 50%;
+    width: 270px;
 }
 .intro{
   padding: 30px 70px;
@@ -416,6 +423,11 @@ nav p{
       left: 50%;
       transform: translate(-50%, -50%);
       color: white;
+    }
+
+    .contact{
+      text-align: center;
+      margin-top: 50px;
     }
    
 }

@@ -1,5 +1,5 @@
-import {Component, Input} from '@angular/core';
-import {Project} from '../models/project';
+import { Component, Input } from '@angular/core';
+import { Project } from '../models/project';
 
 
 
@@ -11,12 +11,12 @@ import {Project} from '../models/project';
 
 export class ContactComponent {
     @Input() project: Project
-    expanded : boolean = false
+    expanded: boolean = false
 
-    expandedOrShrink(){
+    expandedOrShrink() {
         this.expanded = !this.expanded
     }
-  
 
-   
+
+
 }
