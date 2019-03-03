@@ -5,7 +5,11 @@ body{
 }
 
 .about{
-  padding: 50px 100px;
+  padding: 23px 100px;
+}
+
+.intro{
+  padding: 30px 70px;
 }
 
 h1, h2{
@@ -32,6 +36,28 @@ h3{
 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+}
+
+
+
+.cards img{
+  width: 400px;
+}
+
+.cards{
+  margin: 20px 0 ;
+}
+
+.cards p{
+  padding-top: 50px;
+}
+
+.number3{
+  height: 300px;
+}
+
+.number2{
+  height: 300px;
 }
 
 .sections{
@@ -157,6 +183,10 @@ nav p{
 .projects{
   margin: 90px 0;
 }  
+
+.projects img{
+  width: 450px;
+}
 
 .projects .btn{
   margin: 20px 0;
@@ -336,6 +366,29 @@ nav p{
     }
     nav img{
         margin-left: 0;
+    }
+
+    .cards img{
+      width: 300px;
+    }
+
+    .cards{
+      margin-left: 0;
+    }
+
+    .about{
+      padding: 0;
+    }
+
+    .projects img{
+      width: 315px;
+    }
+
+    .desc{
+      padding: 0;
+    }
+    .intro{
+      padding: 0;
     }
    
 }
