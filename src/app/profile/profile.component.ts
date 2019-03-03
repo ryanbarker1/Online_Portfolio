@@ -16,4 +16,6 @@ export class ProfileComponent implements OnInit{
     ngOnInit() : void {
         this.projectsService.getProjects().subscribe(data => this.projects = data)
     }
+
+  
 }
