@@ -148,9 +148,12 @@ p{
   }
 
 nav p{
+  text-align: center;
     color: #fff;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    margin-left: 65px;
 }
 
 
@@ -160,6 +163,7 @@ nav p{
       list-style: none;
       display: flex;
       color: #fff;
+      margin-top: 20px
   }
 
   .social ul li a{
