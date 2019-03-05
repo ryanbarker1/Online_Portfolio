@@ -162,11 +162,29 @@ nav p{
       color: #fff;
   }
 
-  .social ul li{
+  .social ul li a{
       font-size: 18px;
       padding: 10px 30px;
       color: #fff;
   }
+
+  .social ul li  .facebook:hover{
+    font-size: 18px;
+    padding: 10px 30px;
+    color: navy;
+}
+
+.social ul li  .git:hover{
+  font-size: 18px;
+  padding: 10px 30px;
+  color: gray;
+}
+
+.social ul li  .linked:hover{
+  font-size: 18px;
+  padding: 10px 30px;
+  color: lightskyblue;
+}
 
   nav img{
       width: 105px;

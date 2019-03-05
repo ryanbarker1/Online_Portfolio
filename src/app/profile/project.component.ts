@@ -17,6 +17,9 @@ export class ProjectComponent {
         this.expanded = !this.expanded
     }
   
+  
+      
+
 
    
 }
