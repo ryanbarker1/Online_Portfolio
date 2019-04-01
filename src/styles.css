@@ -9,7 +9,6 @@ body{
 .about{
   padding: 23px 100px;
 }
-
 .contacts{
   margin-bottom: 100px;
 }
@@ -24,6 +23,7 @@ body{
     border-radius: 50%;
     width: 270px;
 }
+
 .intro{
   padding: 30px 70px;
 }
@@ -54,9 +54,23 @@ p{
     font-size: 18px;
 }
 
+.contacts .contact a{
+  color: rgb(12, 124, 135);
+}
+
 .down:hover{
   color: #0c7c87 !important;
 }
+
+.card a{
+  color: rgb(12, 124, 135);
+}
+
+.card-columns{
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
 
 .cards img{
   width: 400px;
@@ -110,6 +124,19 @@ p{
 .arrow p{
   margin-top: 40px;
 
+}
+
+.contact p .btn{
+  background-color: transparent;
+    border: 1px #ed95b5 solid;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.contact p .btn:hover{
+  background-color: #0c7c87 ;
+  border: 1px #0c7c87  solid;
+  color: #fff;
 }
 
 .btn:hover{
@@ -224,7 +251,19 @@ nav p{
 
 
   
-  
+  .projects a .caption{
+    color:  rgb(12, 124, 135);
+    
+  }
+
+  .projects a{
+    text-decoration: none;
+  }
+
+  .projects a .caption:hover{
+    color: #333;
+   
+  }
 
 .projects{
   margin: 90px 0;

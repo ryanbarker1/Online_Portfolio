@@ -1,7 +1,7 @@
 
 
 
-<div class="projects col-sm-12 tex-center">
+<!-- <div class="projects col-sm-12 tex-center">
   <img src="{{project.image}}" alt="...">
 
   <h3 class="project">{{project.title}}</h3>
@@ -9,5 +9,42 @@
 <p >  <a  href={{project.URL}} target="_blank" class="btn btn-primary">VIEW SITE</a></p>
 
   <hr>
-</div>
+</div> -->
 
+
+
+
+
+
+<div class="card">
+    <a href="" data-toggle="modal" [attr.data-target]="'#card-modal-' + project.id">
+    <img width="50%" src="{{project.image}}" class="card-img-top">
+    <div class="card-body" >
+        <h5 class="card-title"> {{project.title}}</h5>
+        </div>
+        </a>
+
+</div>
+       
+   
+
+<div class="modal" id="card-modal-{{project.id}}" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal0large" role="document">
+    <div class="modal-content">
+      <div class="modalheader">
+          <h3 class="modal-title">{{project.title}}</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span arria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <p><img src="{{project.image}}" width="100%" alt="..."></p>
+          <p >{{project.description}}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        <a  href={{project.URL}} target="_blank" class="btn btn-primary">VIEW SITE</a>
+      </div>
+    </div>
+  </div>
+</div>
