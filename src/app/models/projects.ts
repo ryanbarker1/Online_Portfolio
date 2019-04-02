@@ -3,7 +3,7 @@ import { Project } from "./project";
 export const MY_PROJECTS : Project[] = [
     {
         id: 101,
-        URL: "http://goldprogram.wpengine.com/",
+        URL: "https://goldprogramonline.com/home/fts",
         title: "The Gold Program",
         description: "This site was done with WordPress. The Gold Program is part of the company WEX. This site is where existing members and those who are looking to find ways to save more money on their tire purchases. This is desingned with custom CSS, Javascript and PHP. The login portion is used with .NET",
         image: "https://raw.githubusercontent.com/ryanbarker1/ryanbarker1.github.io/master/portfolio/Capture08.jpg"
