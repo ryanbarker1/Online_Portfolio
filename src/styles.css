@@ -167,7 +167,7 @@ p{
 
   .project-hero{
      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-     background-image: linear-gradient(to bottom right, rgba(12, 124, 135, 0.8), rgba(237, 149, 181, 0.5)), url("assets/project.jpg");
+     background-image: linear-gradient(to bottom right, rgba(12, 124, 135, 0.8), rgba(237, 149, 181, 0.5)), url("assets/new.png");
   
      /* Set a specific height */
      height: 500px;
@@ -182,7 +182,7 @@ p{
 
   .contact-hero{
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(to bottom right, rgba(12, 124, 135, 0.8), rgba(237, 149, 181, 0.5)), url("assets/contact.jpg");
+    background-image: linear-gradient(to bottom right, rgba(12, 124, 135, 0.8), rgba(237, 149, 181, 0.5)), url("assets/new2.png");
  
     /* Set a specific height */
     height: 500px;
