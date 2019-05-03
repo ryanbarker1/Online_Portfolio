@@ -6,7 +6,8 @@ import { ProjectsService } from '../services/projects.service';
 
 @Component({
     //selector: 'projects-el',
-    templateUrl: './profile.component.html'
+    templateUrl: './profile.component.html',
+    
 })
 
 export class ProfileComponent implements OnInit{
@@ -16,5 +17,8 @@ export class ProfileComponent implements OnInit{
     ngOnInit() : void {
         this.projectsService.getProjects().subscribe(data => this.projects = data)
     }
+
+    scrollWin() {
+        window.scrollTo(0, 550);}
 
 }
